@@ -326,9 +326,9 @@ except KeyError:
 try:
     IMAGE_URL = getConfig('IMAGE_URL')
     if len(IMAGE_URL) == 0:
-        IMAGE_URL = 'https://telegra.ph/file/db03910496f06094f1f7a.jpg'
+        IMAGE_URL = 'https://telegra.ph/file/8a88c893c2519bbf8aeec.png'
 except KeyError:
-    IMAGE_URL = 'https://telegra.ph/file/db03910496f06094f1f7a.jpg'
+    IMAGE_URL = 'https://telegra.ph/file/8a88c893c2519bbf8aeec.png'
 
 IGNORE_PENDING_REQUESTS = False
 try:
@@ -351,9 +351,9 @@ except KeyError:
 try:
     TIMEZONE = getConfig('TIMEZONE')
     if len(TIMEZONE) == 0:
-        TIMEZONE = 'Asia/Jakarta'
+        TIMEZONE = 'Asia/Kolkata'
 except KeyError:
-    TIMEZONE = 'Asia/Jakarta'
+    TIMEZONE = 'Asia/Kolkata'
 
 updater = tg.Updater(token=BOT_TOKEN)
 bot = updater.bot
